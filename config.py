@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = os.environ.get("6047785902:AAGBhjwIW4-sMSzbkdod3ona6D9GKXH-XMs")
+    BOT_TOKEN = os.environ.get("Bot_Token")
     API_ID = 24250238
     API_HASH = "cb3f118ce5553dc140127647edcf3720"
     ADMIN_ID = [6175650047]
@@ -9,6 +9,7 @@ class Config(object):
     DB_NAME = os.environ.get("DB_NAME")
     TXT_LOG = -1002993754147
     HOST = "https://www.masterapi.tech"
+
 
 
 
